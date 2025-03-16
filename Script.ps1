@@ -19,7 +19,7 @@
 #>
 
 param(
-    [string]$DriveLabel = 'DRIVEUPDATE',  # USB drive label
+    [string]$DriveLabel = 'MY_DRIVE',  # USB drive label
     [string[]]$SourceFolders = @(
         "$env:USERPROFILE\Downloads",
         "$env:USERPROFILE\Documents",
